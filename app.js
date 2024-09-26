@@ -21,4 +21,4 @@ function fromYenToPound(yen) {
     return euros * oneEuroIs.GBP;
 }
 
-module.exports = { fromDollarToYen, fromEuroToDollar, fromYenToPound };
+module.exports = { oneEuroIs, fromDollarToYen, fromEuroToDollar, fromYenToPound };
